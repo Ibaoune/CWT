@@ -1,0 +1,33 @@
+{
+	"inputdir": ".",
+	"read_flds_and_save_to_npz": true,
+	"plot_flds_of_cwt": true,
+	"read_fld_of_cwt": {
+		"varibales": ["MSLP"],
+		"vars_names_in_netcdf": ["msl"],
+		"path_to_excel_file": "data/WTS_ERA_5_1959_2021_(MOROCCO).xlsx",
+		"out_dir_to_npz_files": "NPZ_test",
+		"period": [1950, 2021],
+		"over_seasons": true,
+		"seasons": ["DJF", "MAM", "JJA", "SON", "all_months"]
+	},
+	"plot_fld_of_cwt": {
+    	"name_Figs_outdir": "Figs_test",
+		"maps": [2, 5],
+		"period": [1950, 2021],
+		"over_seasons": true,
+		"seasons": ["DJF", "MAM", "JJA", "SON", "all_months"]
+	},
+	"type_of_plot": "pure",
+	"plot_anomal": true,
+	"pa_to_hPa": true,
+	"proj_stere": false,
+	"varibales": ["MSLP"],
+	"vars_names_in_netcdf": ["msl"],
+	"HorizMeans": {
+		"cmaps": "jet",
+		"cmap_bounds": [960, 1044, 4],
+		"cmaps_diff": ["cmapMed_centred_on_white_for_diff"],
+		"cmap_bounds_diff": [-40, 44, 2]
+	}
+}
