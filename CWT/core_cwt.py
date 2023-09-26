@@ -3,9 +3,8 @@
 """
 Created on Mon Aug  7 17:05:53 2023
 
-@author: M. El Aabar Ibaoune
+@author: M. El Aabaribaoune (@um6p)
 """
-
 
 import os
 import sys

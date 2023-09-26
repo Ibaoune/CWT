@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Created on Mon Aug  7 17:05:53 2023
 
-
+@author: M. El Aabaribaoune (@um6p)
+"""
 
 __doc__ = """
 Created on Tue Aug 15 12:57:46 2023
